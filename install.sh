@@ -31,7 +31,7 @@ clone_repo(){
     git submodule update --init --recursive
     cd v2ray-cloudfoundry/v2ray
     chmod +x *
-    cd ${SH_PATH}/IBMYes/v2ray-cloudfoundry
+    cd ${SH_PATH}/IBMYes/v2ray-cloudfoundry  
     echo "初始化完成。"
 }
 
